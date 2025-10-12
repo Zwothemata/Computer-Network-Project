@@ -9,6 +9,6 @@ This repository contains Packet Tracer exercises for five physical topologies pl
 
 | time | big | hello |
 |----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
+|  | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 

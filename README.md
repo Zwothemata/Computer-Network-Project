@@ -9,10 +9,10 @@ This repository contains Packet Tracer exercises for five physical topologies pl
 
 | LAN / VLAN Zone   | Topology Type | Gateway / Router Interface    | IPv4 Address    |  IPv6 Address    |  Description          |
 |-------------------|---------------|-------------------------------|-----------------|------------------|-----------------------|
-|  | Row 1, Col 2   | Row 1, Col 3  |                               |                 |
-| Row 2, Col 1 | Row 2, Col 2 |----------------                     |                 |                  |                       |
-|-------------------|----------------||||||
-|
-|
+|  | Row 1, Col 2   | Row 1, Col 3  |                               |                 |                  |                       |
+| Row 2, Col 1      | Row 2, Col 2  |----------------               |                 |                  |                       |
+|-------------------|---------------|                               |                 |                  |                       |
+|                   |               |                               |                 |                  |                       |
+|                   |               |                               |                 |                  |                       |
 |
 |

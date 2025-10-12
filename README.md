@@ -3,5 +3,5 @@ This repository contains Packet Tracer exercises for five physical topologies pl
 
 ## Networking 
 
-![picture](https://myoctocat.com/assets/images/base-octocat.svg)
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/beacon%20and%20eggs.jpg)
 

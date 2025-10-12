@@ -1,7 +1,7 @@
 # 🖧 CMPG 325 - Computer Networks Long Project (Hybrid Topology)
-### **Name:** [Zwothe Matamela] 
+### **Name:** Zwothe Matamela 
 ### **Module:** CPMG 325 - Computer Networks  
-### **Instructor:** [Prof Lugayizi]  
+### **Instructor:** Prof Lugayizi 
 ### **Year:** 2025  
 
 ---

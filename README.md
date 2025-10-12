@@ -7,8 +7,8 @@ This repository contains Packet Tracer exercises for five physical topologies pl
 
 
 
-| time | big | hello |      |      |
-|----------|----------|----------|--------|--------|
+| Device   | Interface | VLAN     | IPv4 Address    |  IPv6 Address    |  Role          |
+|----------|-----------|----------|-----------------|------------------|----------------|
 |  | Row 1, Col 2 | Row 1, Col 3 |        |        |
 | Row 2, Col 1 | Row 2, Col 2 |  |||
 

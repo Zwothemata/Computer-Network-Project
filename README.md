@@ -105,7 +105,7 @@ The design ensures:
 ---
 ## ParII Wireless Mesh Topology
 
-![picture]()
+![picture](https://raw.githubusercontent.com/Zwothemata/Computer-Network-Project/29c9fb2198390e69f1a65c0e4ed0e01a82068c93/Screenshot%20(209).png)
 
 
 ## Switch Configuration Notes

@@ -21,7 +21,7 @@ The design ensures:
 
 ## Hybrid Topology 
 
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(208).png?raw=true)
 
 
 ## 🧩 Network Components

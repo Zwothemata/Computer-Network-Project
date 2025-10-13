@@ -101,8 +101,8 @@ The design ensures:
 
 ##  VLAN Assignment Table
 
-| VLAN Name | VLAN1 | Subnet | Zone | Purpose |
-|----------|------------|---------|--------|----------|
+| VLAN Name | VLAN1 | 
+|----------|------------|
 | Switch0 | 10.0.0.1  |
 | Switch1 | 10.0.0.2  | 
 | Switch2 | 10.0.0.3  | 
@@ -155,8 +155,8 @@ The design ensures:
 
 ##  VLAN Assignment Table
 
-| VLAN Name | VLAN1 | Subnet | Zone | Purpose |
-|----------|------------|---------|--------|----------|
+| VLAN Name | VLAN1 | 
+|----------|------------|
 | Switch0 | 10.0.0.1  |
 |Router0  | 192.168.1.1|
 

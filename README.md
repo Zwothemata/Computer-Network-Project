@@ -72,7 +72,6 @@ The design ensures:
 
 | VLAN ID | VLAN Name | Subnet | Zone | Purpose |
 |----------|------------|---------|--------|----------|
-|---------|-------|
 | Switch0 | 10.0.0.1  |
 | Switch1 | 10.0.0.2  | 
 | Switch2 | 10.0.0.3  | 

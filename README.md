@@ -84,10 +84,10 @@ The design ensures:
 -----------------------------------------------------------------
 
 ## VLAN Configuration
-### Objective
-
+###  Objective
 VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved security, performance, and traffic management.  
 Each VLAN isolates a specific group of devices while still allowing inter-VLAN communication through the router.
+
 ---
 
 ##  VLAN Assignment Table

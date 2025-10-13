@@ -26,11 +26,13 @@ In a bus topology, all devices in the network are connected to a single central 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Bus%20topology.png?raw=true)
 
 
+
 ### 2.Mesh Topology
 
 A mesh topology connects every device to every other device directly, creating multiple paths for data to travel. This makes the network highly reliable and fault-tolerant, as even if one connection fails, data can still reach its destination through an alternate path. Mesh topology provides excellent performance and redundancy, making it ideal for networks where communication reliability is critical, such as in military, industrial, or wireless mesh systems. However, it requires a large amount of cabling and configuration, which makes it expensive and complex to install. Despite the cost, mesh topology is valued for its stability, security, and fault tolerance.
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Mesh%20Topology.png?raw=true)
+
 
 
 ### 3.Star Topology
@@ -40,11 +42,13 @@ The star topology is one of the most commonly used network designs today. In thi
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Star%20Topology.png?raw=true)
 
 
+
 ### 4.Ring Topology
 
 In a ring topology, each device is connected to exactly two other devices, forming a closed loop or ring. Data travels around the ring in one direction (or in both directions in a dual-ring setup). Each device receives data and passes it on until it reaches the intended destination. Because the data flows in an orderly manner, collisions are rare. However, the main disadvantage is that if any single device or cable fails, the entire network can stop functioning. It can also be difficult to add or remove devices without disrupting the network. Ring topology was popular in older systems like Token Ring networks but is now less common due to advances in star and mesh designs.
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Ring%20Topology.png?raw=true)
+
 
 
 ### 5.Extended Star

@@ -179,6 +179,7 @@ Switch(config)# interface f0/2
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10
 Switch(config-if)# description Connected_to_PC1
+
 ----------
 
 ### DHCP Configuration

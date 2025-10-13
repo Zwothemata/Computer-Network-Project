@@ -6,7 +6,7 @@
 ##  Project Overview
 
 This project implements and simulates five basic network topologies — Bus, Star, Mesh, Ring, and Extended Star — using Cisco Packet Tracer.  
-A Hybrid Topology integrates all five into one network with VLAN segmentation, IPv4/IPv6 addressing, one central **server (HTTP/DNS/DHCP)**, and a router-on-a-stick setup for inter-VLAN communication.
+A Hybrid Topology integrates all five into one network with VLAN segmentation, IPv4/IPv6 addressing, one central server (HTTP/DNS/DHCP), and a router-on-a-stick setup for inter-VLAN communication.
 
 The design ensures:
 - Proper VLAN segmentation and IP planning  

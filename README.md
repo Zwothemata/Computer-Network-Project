@@ -22,22 +22,35 @@ The design ensures:
 ### Bus Topology
 
 In a bus topology, all devices in the network are connected to a single central cable called the bus or backbone. This cable acts as a shared communication medium where data is transmitted from one device to all others on the network. Each computer checks the data to see if it is the intended recipient. Bus topology is simple, cost-effective, and easy to install for small networks since it requires less cabling. However, it has major drawbacks. If the main cable fails, the entire network stops working. Additionally, as more devices are added, data collisions become more frequent, slowing down the network’s performance. Bus topology is therefore best suited for small, temporary, or low-traffic networks.
+
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Bus%20topology.png?raw=true)
 
 
 ### Mesh Topology
+
+A mesh topology connects every device to every other device directly, creating multiple paths for data to travel. This makes the network highly reliable and fault-tolerant, as even if one connection fails, data can still reach its destination through an alternate path. Mesh topology provides excellent performance and redundancy, making it ideal for networks where communication reliability is critical, such as in military, industrial, or wireless mesh systems. However, it requires a large amount of cabling and configuration, which makes it expensive and complex to install. Despite the cost, mesh topology is valued for its stability, security, and fault tolerance.
+
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Mesh%20Topology.png?raw=true)
 
 
 ### Star Topology
+
+The star topology is one of the most commonly used network designs today. In this setup, all devices are connected to a central hub, switch, or router. The central device acts as a controller that manages and forwards data between connected nodes. If one cable or device fails, it does not affect the rest of the network, which makes troubleshooting and maintenance easier. However, if the central hub fails, the entire network becomes inoperative. The star topology is reliable, easy to expand, and provides better performance since each device has a dedicated connection. It is widely used in modern LANs (Local Area Networks) due to its efficiency and simplicity.
+
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Star%20Topology.png?raw=true)
 
 
 ### Ring Topology
+
+In a ring topology, each device is connected to exactly two other devices, forming a closed loop or ring. Data travels around the ring in one direction (or in both directions in a dual-ring setup). Each device receives data and passes it on until it reaches the intended destination. Because the data flows in an orderly manner, collisions are rare. However, the main disadvantage is that if any single device or cable fails, the entire network can stop functioning. It can also be difficult to add or remove devices without disrupting the network. Ring topology was popular in older systems like Token Ring networks but is now less common due to advances in star and mesh designs.
+
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Ring%20Topology.png?raw=true)
 
 
 ### Extended Star
+
+The extended star topology is an expansion of the basic star design. It connects multiple star networks together using a central hub or switch that links all the smaller stars. Each branch of the network operates as its own star segment, and all are interconnected through the main backbone switch. This design is commonly used in large organizations, schools, and campuses where multiple departments or buildings need to be connected. The extended star topology is highly scalable, reliable, and easy to maintain. However, like the standard star, it depends heavily on the central hub or switch—if the main backbone device fails, the entire network can be affected. Still, it remains one of the most practical and widely implemented topologies for large-scale networks.
+
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Extended%20Star.png?raw=true)
 
 

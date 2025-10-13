@@ -70,7 +70,7 @@ The design ensures:
 
 ## 📑 VLAN Assignment Table
 
-| VLAN ID | VLAN Name | Subnet | Zone | Purpose |
+| VLAN Name | VLAN1 | Subnet | Zone | Purpose |
 |----------|------------|---------|--------|----------|
 | Switch0 | 10.0.0.1  |
 | Switch1 | 10.0.0.2  | 

@@ -20,6 +20,8 @@ The design ensures:
 
 
 ### Bus Topology
+
+In a bus topology, all devices in the network are connected to a single central cable called the bus or backbone. This cable acts as a shared communication medium where data is transmitted from one device to all others on the network. Each computer checks the data to see if it is the intended recipient. Bus topology is simple, cost-effective, and easy to install for small networks since it requires less cabling. However, it has major drawbacks. If the main cable fails, the entire network stops working. Additionally, as more devices are added, data collisions become more frequent, slowing down the network’s performance. Bus topology is therefore best suited for small, temporary, or low-traffic networks.
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Bus%20topology.png?raw=true)
 
 

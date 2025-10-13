@@ -121,6 +121,14 @@ The design ensures:
 | Tablet PC1 | 198.162.1.9 |  Access Point12 | FE80::201:C9FF:FEAE:BE07 |
 | PC3 | 198.162.1.10 |  Access Point0 |FE80::2E0:8FFF:FE65:51CC |
 
+
+## 📑 VLAN Assignment Table
+
+| VLAN Name | VLAN1 | Subnet | Zone | Purpose |
+|----------|------------|---------|--------|----------|
+| Switch0 | 10.0.0.1  |
+|Router0  | 192.168.1.1|
+
 ## Switch Configuration Notes
 
 

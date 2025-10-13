@@ -13,7 +13,7 @@ The design ensures:
 - End-to-end data exchange between all zones  
 - Basic network security (ACLs, port security)  
 - Centralized management and DHCP configuration  
----
+-------------------------------------------------
 
 ### Part I: Network Topologies
 
@@ -81,14 +81,13 @@ The design ensures:
 |PC18  |198.162.1.20  |Extended Star |  FE80::2E0:A3FF:FE1B:1307 |
 |PC19  |198.162.1.6   | Extended Star| FE80::20A:F3FF:FE00:E9D7 |
 | Switches | Assigned Dynamically | All Zones | |
+-----------------------------------------------------------------
 
----
 ## VLAN Configuration
 ### Objective
 VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved security, performance, and traffic management.  
 Each VLAN isolates a specific group of devices while still allowing inter-VLAN communication through the router.
-
------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  VLAN Assignment Table
 
@@ -109,9 +108,7 @@ Each VLAN isolates a specific group of devices while still allowing inter-VLAN c
 | Switch12| 10.0.0.12 |
 | Switch13| 10.0.0.13 |
 | Switch14| 10.0.0.14 |
-
-
----
+-----------------------
 ## ParII: Wireless Mesh Topology
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(210).png?raw=true)
@@ -151,7 +148,7 @@ hostnane s1
 interface vlan1
 ip address 10.0.0.1 255.0.0.0
  no shutdown
----
+-----------------------------
 ```
 ### Switch password Configuratuion
 ```bash
@@ -159,8 +156,7 @@ enable
 conf t
 enable password
 exit
-
--------
+---------------
 ```
 ## Router Configuration
 ```bash
@@ -172,7 +168,7 @@ interface g0/0
 interface g0/0.10
  encapsulation dot1Q 10
  ip address 192.168.10.1 255.255.255.0
---------
+--------------------------------------
 ```
 ### Access Point Configuration
 
@@ -181,7 +177,7 @@ Switch(config)# interface f0/2
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10
 Switch(config-if)# description Connected_to_PC1
-----------
+-----------------------------------------------
 ```
 ### DHCP Configuration
 ```bash

@@ -177,6 +177,7 @@ ip address 10.0.0.1 255.0.0.0
  no shutdown
 ---
 
+### Switch password Configuratuion
 
 ## Router Configuration
 ```bash

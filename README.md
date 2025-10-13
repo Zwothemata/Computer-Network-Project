@@ -197,4 +197,30 @@ interface g0/0.10
  encapsulation dot1Q 10
  ip address 192.168.10.1 255.255.255.0
 
+```
+### Access Point Configuration
+Switch(config)# interface f0/2
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan 10
+Switch(config-if)# description Connected_to_PC1
+
+----------
+### DHCP Configuration
+IP Address: 192.168.100.10
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.100.1
+DNS Server: 192.168.100.10
+
+DHCP Pools:
+- VLAN 10: 192.168.10.10–50
+- VLAN 20: 192.168.20.10–50
+- VLAN 30: 192.168.30.10–50
+- VLAN 40: 192.168.40.10–50
+------
+
+  ### SSID Configuration
+  SSID: WirelessMesh_Network
+Authentication: WPA2-PSK
+Passphrase: CMPG2025
+Channel: Auto
 

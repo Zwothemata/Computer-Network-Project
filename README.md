@@ -52,16 +52,6 @@ The design ensures:
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(208).png?raw=true)
 
 
-##  Network Components
-
-| Device Type | Quantity | Description |
-|--------------|-----------|-------------|
-| Routers | 1 | Main inter-VLAN router (Router0) |
-| Switches | 15 | Distributed across topologies |
-| PCs | 20 | User devices across 5 network zones |
-| Server | 1 | Provides DHCP and HTTP services |
-
-
 ---
 
 

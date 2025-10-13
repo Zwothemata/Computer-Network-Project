@@ -1,4 +1,4 @@
-#  CMPG 325 - Computer Networks Long Project (Hybrid Topology)
+#  CMPG 325 - Computer Networks Long Project 
  
 
 ---

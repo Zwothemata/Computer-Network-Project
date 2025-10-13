@@ -184,6 +184,7 @@ Switch(config-if)# description Connected_to_PC1
 ----------
 ```
 ### DHCP Configuration
+```bash
 IP Address: 192.168.100.10
 Subnet Mask: 255.255.255.0
 Default Gateway: 192.168.100.1
@@ -194,11 +195,14 @@ DHCP Pools:
 - VLAN 20: 192.168.20.10–50
 - VLAN 30: 192.168.30.10–50
 - VLAN 40: 192.168.40.10–50
----
-
+----------------------------
+```
   ### SSID Configuration
+ ```bash
   SSID: 
 Authentication: WPA2-PSK
 Passphrase: 
 Channel: Auto
+------------------
+```
 

@@ -23,7 +23,7 @@ The design ensures:
 
 
 ### Bus Topology
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Bus%20topology.png?raw=true)
 
 
 ### Mesh Topology

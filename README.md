@@ -62,7 +62,7 @@ The design ensures:
 | PC17 | 198.162.1.19 | Star | FE80::2E0:F7FF:FEB8:637E |
 |PC18  |198.162.1.20  |Extended Star |  FE80::2E0:A3FF:FE1B:1307 |
 |PC19  |198.162.1.6   | Extended Star| FE80::20A:F3FF:FE00:E9D7 |
-| Switches | Assigned Dynamically | All Zones |.... |
+| Switches | Assigned Dynamically | All Zones | |
 
 ---
 ---

@@ -39,7 +39,7 @@ The design ensures:
 ## 🌐 IP Addressing Plan (IPv4 and IPv6)
 ## 🧩 IP Addressing Table
 
-| **Device** | **IP Address** | **Topology Zone** | **Description** |
+| **Device** | **IP Address** | **Topology Zone** | **IPv6(local link address** |
 |-------------|----------------|-------------------|-----------------|
 | PC0 | 198.162.1.1 | Bus | Workstation Node 1 |
 | PC1 | 198.162.1.2 | Bus | Workstation Node 2 |
@@ -60,6 +60,7 @@ The design ensures:
 | PC15 | 198.162.1.17 | Star | Workstation Node 2 |
 | PC16 | 198.162.1.18 | Star | Workstation Node 3 |
 | PC17 | 198.162.1.19 | Star | Workstation Node 4 |
+|pc18  |198.162.1.20  | Star |                    |
 | Switches | Assigned Dynamically | All Zones | Core/Access Layer Devices |
 
 ---

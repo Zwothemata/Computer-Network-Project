@@ -148,3 +148,121 @@ interface g0/1
 
 --------
 
+
+
+# 🌐 Hybrid Network Topology – Cisco Packet Tracer
+
+## 📘 Overview
+This project demonstrates a **Hybrid Network Topology** integrating multiple topological designs — **Bus, Star, Extended Star, Ring, and Mesh** — within one cohesive network.  
+It was created using **Cisco Packet Tracer** and showcases IPv4 configuration, VLAN segmentation, server connectivity, and inter-topology communication.
+
+---
+
+## 🖥️ Topology Components
+
+| **Zone** | **Topology Type** | **Color Zone** | **Devices Included** | **Purpose / Notes** |
+|-----------|------------------|----------------|-----------------------|---------------------|
+| Zone A | **Bus Topology** | 🔴 Red | 3 PCs, 3 Switches | Demonstrates linear connection of devices using a shared backbone. |
+| Zone B | **Extended Star Topology** | 🔵 Blue | 5 PCs, 3 Switches | Central switch connects multiple branches of star networks. |
+| Zone C | **Ring Topology** | 🟦 Dark Blue | 4 PCs, 4 Switches | Each device connected to two others forming a logical ring. |
+| Zone D | **Star Topology** | 🟢 Green | 4 PCs, 1 Switch | Centralized connection through a single switch. |
+| Zone E | **Mesh Topology** | 🟡 Yellow | 4 PCs, 3 Switches, 1 Server | High redundancy and fault tolerance with multiple interconnections. |
+
+---
+
+## 🧩 IP Addressing Table
+
+| **Device** | **IP Address** | **Topology Zone** | **Description** |
+|-------------|----------------|-------------------|-----------------|
+| PC0 | 198.162.1.1 | Bus | Workstation Node 1 |
+| PC1 | 198.162.1.2 | Bus | Workstation Node 2 |
+| PC2 | 198.162.1.3 | Bus | Workstation Node 3 |
+| PC3 | 198.162.1.4 | Extended Star | Workstation Node 1 |
+| PC4 | 198.162.1.5 | Extended Star | Workstation Node 2 |
+| PC5 | 198.162.1.6 | Extended Star | Workstation Node 3 |
+| PC6 | 198.162.1.7 | Extended Star | Workstation Node 4 |
+| PC7 | 198.162.1.8 | Mesh | Workstation Node 1 |
+| PC8 | 198.162.1.9 | Mesh | Workstation Node 2 |
+| PC9 | 198.162.1.10 | Mesh | Workstation Node 3 |
+| Server (DHCP/HTTP) | 198.162.1.11 | Mesh | Centralized Server for DHCP and Web Services |
+| PC10 | 198.162.1.12 | Ring | Workstation Node 1 |
+| PC11 | 198.162.1.13 | Ring | Workstation Node 2 |
+| PC12 | 198.162.1.14 | Ring | Workstation Node 3 |
+| PC13 | 198.162.1.15 | Ring | Workstation Node 4 |
+| PC14 | 198.162.1.16 | Star | Workstation Node 1 |
+| PC15 | 198.162.1.17 | Star | Workstation Node 2 |
+| PC16 | 198.162.1.18 | Star | Workstation Node 3 |
+| PC17 | 198.162.1.19 | Star | Workstation Node 4 |
+| Switches | Assigned Dynamically | All Zones | Core/Access Layer Devices |
+
+---
+
+## 🌍 VLAN Configuration Notes
+| **VLAN ID** | **Zone** | **Purpose** |
+|--------------|----------|--------------|
+| 10 | Bus | Isolated testing subnet |
+| 20 | Extended Star | Academic/Lab connections |
+| 30 | Ring | Research subnet |
+| 40 | Star | Office LAN |
+| 50 | Mesh | Server + Core network backbone |
+
+---
+
+## ⚙️ Server Configuration
+**Device:** DHCP + HTTP Server  
+**IP Address:** `198.162.1.11`  
+**Services Enabled:**
+- DHCP Pool for all VLANs
+- HTTP Web Hosting
+- DNS optional (if configured for internal hostname resolution)
+
+---
+
+## 🔄 Interconnection Links
+- Each topology is linked through **core switches** using **FastEthernet** connections.  
+- **Mesh zone** serves as the **core distribution** connecting all other topologies.
+- Trunk links configured for VLAN intercommunication.
+
+---
+
+## 🧠 Key Learning Objectives
+- Understand the design and function of various network topologies.
+- Learn how to integrate multiple topologies into one hybrid model.
+- Practice IP addressing, VLAN segmentation, and device interconnectivity.
+- Configure DHCP and HTTP servers for automated IP and web service delivery.
+
+---
+
+## 📸 Topology Diagram
+> Below is the visual representation of the Hybrid Topology (as designed in Cisco Packet Tracer):
+
+![Hybrid Network Topology](./Screenshot%20(208).png)
+
+---
+
+## 🧾 Simulation Notes
+- All PCs can ping the **DHCP/HTTP server (198.162.1.11)** if properly configured.  
+- VLAN trunking allows devices from different zones to communicate.  
+- Static routes or router-on-a-stick may be used for inter-VLAN routing.
+
+---
+
+## 👨‍💻 Author
+**Zwothe Matamela**  
+📅 *Last Updated:* October 2025  
+📂 *Project File:* `HYBRID_TOPOLOGY.pkt`
+
+---
+
+## 🏁 How to Use
+1. Open `HYBRID_TOPOLOGY.pkt` in **Cisco Packet Tracer**.  
+2. Enable simulation mode and test ping between zones.  
+3. View DHCP and HTTP configuration on the server.  
+4. Optionally extend the network by adding wireless APs or routers.
+
+---
+
+### ✅ Result
+A fully functional **Hybrid Network** combining multiple topology types with active communication across all zones.
+
+

@@ -35,7 +35,7 @@ The design ensures:
 
 
 ### Ring Topology
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Ring%20Topology.png?raw=true)
 
 
 ### Extended Star

@@ -18,7 +18,9 @@ The design ensures:
 - Centralized management and DHCP configuration  
 
 ---
-## Five topologies
+### Part I Network Topologies
+
+
 
 ### Bus Topology
 ![picture]()

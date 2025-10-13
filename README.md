@@ -65,7 +65,28 @@ The design ensures:
 | Switches | Assigned Dynamically | All Zones | |
 
 ---
+## VLAN Segmentation
+
+|VLAN Name| VLAN1|
 ---
+|---------|-------|
+| Switch0 | 10.0.0.1  |
+| Switch1 | 10.0.0.2  | 
+| Switch2 | 10.0.0.3  | 
+| Switch3 | 10.0.0.4  | 
+| Switch4 | 10.0.0.5  | 
+| Switch5 | 10.0.0.6  | 
+| Switch6 | 10.0.0.7  |
+| Switch7 | 10.0.0.11 |         
+| Switch8 | 10.0.0.10 |
+| Switch9 | 10.0.0.8  |
+| Switch10| 10.0.0.9  |
+| Switch11| 10.0.0.11 |
+| Switch12| 10.0.0.12 |
+| Switch13| 10.0.0.13 |
+| Switch14| 10.0.0.14 |
+
+-----
 
 ## 📑 VLAN Assignment Table
 

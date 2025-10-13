@@ -175,6 +175,8 @@ interface g0/0.10
 --------
 ```
 ### Access Point Configuration
+
+---bash
 Switch(config)# interface f0/2
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10

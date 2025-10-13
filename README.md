@@ -1,5 +1,5 @@
 # 🖧 CMPG 325 - Computer Networks Long Project (Hybrid Topology)
-### **Name:** Zwothe Matamela 
+### **Name:**  
 ### **Module:** CPMG 325 - Computer Networks  
 ### **Instructor:** Prof Lugayizi 
 ### **Year:** 2025  
@@ -143,6 +143,7 @@ interface g0/1
 
 --------
 
+## Server Configuration
 IP Address: 192.168.100.10
 Subnet Mask: 255.255.255.0
 Default Gateway: 192.168.100.1

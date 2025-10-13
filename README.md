@@ -107,6 +107,7 @@ The design ensures:
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(210).png?raw=true)
 
+##  IP Addressing Table
 
 | **Device** | **IP Address** | **Access Points** | **Local link Address(IPv6)** |
 |-------------|----------------|-------------------|-----------------|

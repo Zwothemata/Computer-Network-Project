@@ -258,12 +258,5 @@ This ensures that users can access a centralized internal website using a standa
 
 ---
 
-###  Router Configuration (Optional Verification)
-If inter-VLAN routing is used, verify that your router interfaces are configured for VLAN 30:
-```bash
-Router(config)# interface gigabitEthernet0/0.30
-Router(config-subif)# encapsulation dot1Q 30
-Router(config-subif)# ip address 192.168.30.1 255.255.255.0
-Router(config-subif)# exit
 
 

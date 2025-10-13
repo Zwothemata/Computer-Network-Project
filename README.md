@@ -36,7 +36,7 @@ The design ensures:
 
 ---
 
-##  IP Addressing Plan
+##  IP Addressing Table
 ## 🧩 IP Addressing Table
 
 | **Device** | **IP Address** | **Topology Zone** | **IPv6(link local address)** |

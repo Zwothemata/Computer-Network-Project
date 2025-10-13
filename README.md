@@ -93,7 +93,11 @@ The design ensures:
 | Switches | Assigned Dynamically | All Zones | |
 
 ---
-## VLAN Segmentation
+## VLAN Configuration
+### Objective
+VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved **security**, **performance**, and **traffic management**.  
+Each VLAN isolates a specific group of devices while still allowing inter-VLAN communication through the router.
+
 -----
 
 ##  VLAN Assignment Table
@@ -136,11 +140,6 @@ The design ensures:
 | Tablet PC1 | 198.162.1.9 |  Access Point12 | FE80::201:C9FF:FEAE:BE07 |
 | PC3 | 198.162.1.10 |  Access Point0 |FE80::2E0:8FFF:FE65:51CC |
 
-
-### VLAN Configuration
-### Objective
-VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved **security**, **performance**, and **traffic management**.  
-Each VLAN isolates a specific group of devices while still allowing inter-VLAN communication through the router.
 
 ##  VLAN Assignment Table
 

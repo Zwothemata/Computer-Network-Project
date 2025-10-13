@@ -108,6 +108,18 @@ The design ensures:
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(210).png?raw=true)
 
 
+| **Device** | **IP Address** | **Access Points** | **Local link Address(IPv6)** |
+|-------------|----------------|-------------------|-----------------|
+| PC0 | 198.162.1.2 | Access Point2 |FE80::202:4AFF:FE6D:9151|
+| Laptop0 | 198.162.1.3 |  Access Point1 |FE80::202:4AFF:FE6D:9151  |
+| Tablet PC0 | 198.162.1.4 |  Access Point11 |FE80::201:63FF:FEB6:97DC |
+| Smartphone0 | 198.162.1.5 |  Access Point0|FE80::260:3EFF:FE13:24EE  |
+| Laptop1 | 198.162.1.6 |  Access Point2 | FE80::201:C9FF:FE10:5807 |
+| PC1 | 198.162.1.7 |  Access Point0 | FE80::2D0:D3FF:FE49:B5DB |
+| PC2 | 198.162.1.8 |  Access Point2 | FE80::209:7CFF:FEB8:BEBC |
+| Tablet PC1 | 198.162.1.9 |  Access Point12 | FE80::201:C9FF:FEAE:BE07 |
+| PC3 | 198.162.1.10 |  Access Point0 |FE80::2E0:8FFF:FE65:51CC |
+
 ## Switch Configuration Notes
 
 

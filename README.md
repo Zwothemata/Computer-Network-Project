@@ -216,8 +216,8 @@ DHCP Pools:
 - VLAN 20: 192.168.20.10–50
 - VLAN 30: 192.168.30.10–50
 - VLAN 40: 192.168.40.10–50
-------
-
+  
+``
   ### SSID Configuration
   SSID: WirelessMesh_Network
 Authentication: WPA2-PSK

@@ -111,3 +111,45 @@ interface g0/0.100
  ip address 192.168.100.1 255.255.255.0
 exit
 wr
+------
+
+enable
+conf t
+vlan 10
+ name STUDENTS
+vlan 20
+ name STAFF
+vlan 30
+ name LAB
+vlan 40
+ name ENGINEERING
+vlan 50
+ name CORE
+vlan 99
+ name MGMT
+vlan 100
+ name SERVERS
+
+interface range f0/1 - 4
+ switchport mode access
+ switchport access vlan 10
+
+interface range f0/5 - 8
+ switchport mode access
+ switchport access vlan 20
+
+interface g0/1
+ switchport mode trunk
+
+--------
+
+IP Address: 192.168.100.10
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.100.1
+DNS Server: 192.168.100.10
+
+DHCP Pools:
+- VLAN 10: 192.168.10.10–50
+- VLAN 20: 192.168.20.10–50
+- VLAN 30: 192.168.30.10–50
+- VLAN 40: 192.168.40.10–50

@@ -18,7 +18,7 @@ The design ensures:
 - Centralized management and DHCP configuration  
 
 ---
-### Part I Network Topologies
+### Part I: Network Topologies
 
 
 
@@ -133,7 +133,7 @@ The design ensures:
 | Router0 (Subinterfaces) | 192.168.x.1 | All | VLAN gateways |
 
 ---
-## ParII Wireless Mesh Topology
+## ParII: Wireless Mesh Topology
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(210).png?raw=true)
 

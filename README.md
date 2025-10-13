@@ -129,6 +129,10 @@ The design ensures:
 | Switch0 | 10.0.0.1  |
 |Router0  | 192.168.1.1|
 
+### VLAN Configuration
+
+
+
 ## Switch Configuration Notes
 
 
@@ -142,3 +146,4 @@ ip address 10.0.0.1 255.0.0.0
  no shutdown
 
 ---
+

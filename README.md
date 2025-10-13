@@ -116,19 +116,6 @@ The design ensures:
 | Switch13| 10.0.0.13 |
 | Switch14| 10.0.0.14 |
 
----
-
-##  Device Configuration Summary
-
-| Device | IP Address | VLAN | Function |
-|---------|-------------|------|-----------|
-| PC1–PC4 | 192.168.10.10–13 | 10 | Star Network PCs |
-| PC11–PC14 | 192.168.20.10–13 | 20 | Mesh Network PCs |
-| PC15–PC17 | 192.168.30.10–12 | 30 | Bus Network PCs |
-| PC5, PC16–19 | 192.168.40.10–15 | 40 | Extended Star / Ring PCs |
-| PC8–PC10 | 192.168.50.10–12 | 50 | Core VLAN PCs |
-| Server0 | 192.168.100.10 | 100 | HTTP/DNS/DHCP Server |
-| Router0 (Subinterfaces) | 192.168.x.1 | All | VLAN gateways |
 
 ---
 ## ParII: Wireless Mesh Topology

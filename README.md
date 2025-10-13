@@ -51,7 +51,7 @@ The design ensures:
 | PC7 | 198.162.1.8 | Mesh | FE80::202:4AFF:FE47:936E |
 | PC8 | 198.162.1.9 | Extended Star | FE80::2D0:58FF:FE0A:1B31 |
 | PC9 | 198.162.1.10 | Mesh | FE80::2E0:8FFF:FE4E:65BD |
-| Server (DHCP/HTTP) | 198.162.1.1| Mesh | Centralized Server for DHCP and Web Services |
+| Server (DHCP/HTTP) | 198.162.1.1| Mesh | FE80::201:43FF:FEDE:5BAB |
 | PC10 | 198.162.1.12 | Mesh | FE80::201:43FF:FE4E:CEB1|
 | PC11 | 198.162.1.13 | Ring | FE80::201:42FF:FE64:B2D8 |
 | PC12 | 198.162.1.14 | Ring | FE80::202:17FF:FE02:6D5D |
@@ -62,7 +62,7 @@ The design ensures:
 | PC17 | 198.162.1.19 | Star | FE80::2E0:F7FF:FEB8:637E |
 |PC18  |198.162.1.20  |Extended Star |  FE80::2E0:A3FF:FE1B:1307 |
 |PC19  |198.162.1.6   | Extended Star| FE80::20A:F3FF:FE00:E9D7 |
-| Switches | Assigned Dynamically | All Zones | Core/Access Layer Devices |
+| Switches | Assigned Dynamically | All Zones |.... |
 
 ---
 ---

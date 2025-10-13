@@ -103,7 +103,10 @@ The design ensures:
 | Router0 (Subinterfaces) | 192.168.x.1 | All | VLAN gateways |
 
 ---
-## Configuration Notes
+## ParII Wireless Mesh Topology
+
+![picture]()
+
 
 ## Switch Configuration Notes
 

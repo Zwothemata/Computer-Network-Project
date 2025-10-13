@@ -21,7 +21,7 @@ The design ensures:
 
 ## Hybrid Topology 
 
-![picture]()
+![picture](<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/03b44014-a3f2-4ed3-aba5-61c17f610f10" />)
 
 
 ## 🧩 Network Components

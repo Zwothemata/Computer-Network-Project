@@ -103,75 +103,18 @@ The design ensures:
 | Router0 (Subinterfaces) | 192.168.x.1 | All | VLAN gateways |
 
 ---
+## Configuration Notes
 
-## ⚙️ Configuration Notes
+## Switch Configuration Notes
 
-### 🔸 Router Configuration (Router-on-a-Stick)
+
+### 🔸 Switch Configuration 
 ```bash
 enable
 conf t
-interface g0/0
+hostnane s1
+interface vlan1
+ip address 10.0.0.1 255.0.0.0
  no shutdown
 
-interface g0/0.10
- encapsulation dot1Q 10
- ip address 192.168.10.1 255.255.255.0
-
-interface g0/0.20
- encapsulation dot1Q 20
- ip address 192.168.20.1 255.255.255.0
-
-interface g0/0.30
- encapsulation dot1Q 30
- ip address 192.168.30.1 255.255.255.0
-
-interface g0/0.40
- encapsulation dot1Q 40
- ip address 192.168.40.1 255.255.255.0
-
-interface g0/0.50
- encapsulation dot1Q 50
- ip address 192.168.50.1 255.255.255.0
-
-interface g0/0.99
- encapsulation dot1Q 99
- ip address 192.168.99.1 255.255.255.0
-
-interface g0/0.100
- encapsulation dot1Q 100
- ip address 192.168.100.1 255.255.255.0
-exit
-wr
-------
-
-enable
-conf t
-vlan 10
- name STUDENTS
-vlan 20
- name STAFF
-vlan 30
- name LAB
-vlan 40
- name ENGINEERING
-vlan 50
- name CORE
-vlan 99
- name MGMT
-vlan 100
- name SERVERS
-
-interface range f0/1 - 4
- switchport mode access
- switchport access vlan 10
-
-interface range f0/5 - 8
- switchport mode access
- switchport access vlan 20
-
-interface g0/1
- switchport mode trunk
-
---------
-
-
+---

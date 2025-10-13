@@ -39,7 +39,7 @@ The design ensures:
 
 
 ### Extended Star
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Extended%20Star.png?raw=true)
 
 
 

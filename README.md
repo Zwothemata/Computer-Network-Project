@@ -133,7 +133,7 @@ The design ensures:
 
 
 
-## Switch Configuration Notes
+## Configuration Notes
 
 
 ### 🔸 Switch Configuration 

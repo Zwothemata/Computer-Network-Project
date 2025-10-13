@@ -1,8 +1,5 @@
 #  CMPG 325 - Computer Networks Long Project (Hybrid Topology)
-### **Name:**  
-### **Module:** CPMG 325 - Computer Networks  
-### **Instructor:** Prof Lugayizi 
-### **Year:** 2025  
+ 
 
 ---
 

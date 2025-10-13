@@ -148,17 +148,3 @@ interface g0/1
 
 --------
 
-## Server Configuration
-IP Address: 192.168.100.10
-Subnet Mask: 255.255.255.0
-Default Gateway: 192.168.100.1
-DNS Server: 192.168.100.10
-
-DHCP Pools:
-- VLAN 10: 192.168.10.10–50
-- VLAN 20: 192.168.20.10–50
-- VLAN 30: 192.168.30.10–50
-- VLAN 40: 192.168.40.10–50
-
-## Security Configuaration
-

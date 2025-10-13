@@ -202,4 +202,68 @@ Passphrase:
 Channel: Auto
 ------------------
 ```
+##  HTTP Server Configuration
+
+###  Objective
+The goal of this configuration is to set up an **HTTP Web Server** within the hybrid network to provide web services to all connected VLANs and wireless clients.  
+This ensures that users can access a centralized internal website using a standard web browser for communication, updates, or file sharing.
+
+---
+
+###  Devices Involved
+- **Server0** – Configured as the HTTP server (and DHCP/DNS if required)
+- **Router0** – Provides inter-VLAN routing for access across all subnets
+- **Switch0** – Acts as a trunk and access switch connecting VLANs
+- **End Devices** – PCs, Laptops, Tablets, and Smartphones accessing the web server
+
+---
+
+###  Server Configuration Steps (Using Cisco Packet Tracer)
+
+1. **Add the HTTP Server**
+   - Place a **Server** device on the workspace and connect it to the switch using a straight-through cable.
+
+2. **Assign IP Address**
+   - Click on the Server → Desktop → IP Configuration.
+   - Assign a static IP based on your Server VLAN (for example, VLAN 30):
+
+     ```
+     IP Address: 192.168.30.2
+     Subnet Mask: 255.255.255.0
+     Default Gateway: 192.168.30.1
+     DNS Server: 192.168.30.2
+     ```
+
+3. **Enable HTTP Service**
+   - Go to **Services Tab → HTTP**.
+   - Turn **HTTP ON** (and optionally **HTTPS ON**).
+   - In the “HTML” section, you can edit the homepage:
+     ```html
+     <html>
+     <body style="background-color:#f4f4f4; text-align:center;">
+     <h1>Welcome to the CPMG 325 Network Project Web Server</h1>
+     <p>This is the internal website hosted on Server0.</p>
+     <p>Configured by: [Your Name]</p>
+     </body>
+     </html>
+     ```
+
+4. **Enable Optional Services**
+   - Under **Services Tab → DHCP**, configure a DHCP pool (if required) for client IP assignment.
+   - Under **Services Tab → DNS**, add an entry for your web server:
+     ```
+     Name: webserver
+     Address: 192.168.30.2
+     ```
+
+---
+
+###  Router Configuration (Optional Verification)
+If inter-VLAN routing is used, verify that your router interfaces are configured for VLAN 30:
+```bash
+Router(config)# interface gigabitEthernet0/0.30
+Router(config-subif)# encapsulation dot1Q 30
+Router(config-subif)# ip address 192.168.30.1 255.255.255.0
+Router(config-subif)# exit
+
 

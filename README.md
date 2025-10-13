@@ -6,7 +6,7 @@
 
 ---
 
-## 📘 Project Overview
+##  Project Overview
 
 This project implements and simulates **five basic network topologies** — Bus, Star, Mesh, Ring, and Extended Star — using **Cisco Packet Tracer**.  
 A **Hybrid Topology** integrates all five into one network with VLAN segmentation, IPv4/IPv6 addressing, one central **server (HTTP/DNS/DHCP)**, and a **router-on-a-stick** setup for inter-VLAN communication.
@@ -24,7 +24,7 @@ The design ensures:
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(208).png?raw=true)
 
 
-## 🧩 Network Components
+##  Network Components
 
 | Device Type | Quantity | Description |
 |--------------|-----------|-------------|
@@ -36,8 +36,8 @@ The design ensures:
 
 ---
 
-##  IP Addressing Table
-## 🧩 IP Addressing Table
+
+## IP Addressing Table
 
 | **Device** | **IP Address** | **Topology Zone** | **IPv6(link local address)** |
 |-------------|----------------|-------------------|-----------------|
@@ -68,7 +68,7 @@ The design ensures:
 ## VLAN Segmentation
 -----
 
-## 📑 VLAN Assignment Table
+##  VLAN Assignment Table
 
 | VLAN Name | VLAN1 | Subnet | Zone | Purpose |
 |----------|------------|---------|--------|----------|
@@ -90,7 +90,7 @@ The design ensures:
 
 ---
 
-## 🖥️ Device Configuration Summary
+##  Device Configuration Summary
 
 | Device | IP Address | VLAN | Function |
 |---------|-------------|------|-----------|
@@ -122,7 +122,7 @@ The design ensures:
 | PC3 | 198.162.1.10 |  Access Point0 |FE80::2E0:8FFF:FE65:51CC |
 
 
-## 📑 VLAN Assignment Table
+##  VLAN Assignment Table
 
 | VLAN Name | VLAN1 | Subnet | Zone | Purpose |
 |----------|------------|---------|--------|----------|
@@ -136,7 +136,7 @@ The design ensures:
 ## Configuration Notes
 
 
-### 🔸 Switch Configuration 
+###  Switch Configuration 
 ```bash
 enable
 conf t

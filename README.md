@@ -92,13 +92,22 @@ The design ensures:
 
 | VLAN ID | VLAN Name | Subnet | Zone | Purpose |
 |----------|------------|---------|--------|----------|
-| 10 | STUDENTS | 192.168.10.0/24 | Green Zone | Student devices (Star Topology) |
-| 20 | STAFF | 192.168.20.0/24 | Blue Zone | Staff (Mesh Topology) |
-| 30 | LAB | 192.168.30.0/24 | Pink Zone | Lab devices (Bus Topology) |
-| 40 | ENGINEERING | 192.168.40.0/24 | Cyan Zone | Engineering & Research (Extended Star) |
-| 50 | CORE | 192.168.50.0/24 | Yellow Zone | Core backbone between switches |
-| 99 | MGMT | 192.168.99.0/24 | All switches | Management VLAN (SSH/Console) |
-| 100 | SERVERS | 192.168.100.0/24 | Server Area | Server VLAN (DHCP/DNS/HTTP) |
+|---------|-------|
+| Switch0 | 10.0.0.1  |
+| Switch1 | 10.0.0.2  | 
+| Switch2 | 10.0.0.3  | 
+| Switch3 | 10.0.0.4  | 
+| Switch4 | 10.0.0.5  | 
+| Switch5 | 10.0.0.6  | 
+| Switch6 | 10.0.0.7  |
+| Switch7 | 10.0.0.11 |         
+| Switch8 | 10.0.0.10 |
+| Switch9 | 10.0.0.8  |
+| Switch10| 10.0.0.9  |
+| Switch11| 10.0.0.11 |
+| Switch12| 10.0.0.12 |
+| Switch13| 10.0.0.13 |
+| Switch14| 10.0.0.14 |
 
 ---
 

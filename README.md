@@ -36,31 +36,32 @@ The design ensures:
 
 ---
 
-## 🌐 IP Addressing Plan (IPv4 and IPv6)
+##  IP Addressing Plan
 ## 🧩 IP Addressing Table
 
-| **Device** | **IP Address** | **Topology Zone** | **IPv6(local link address** |
+| **Device** | **IP Address** | **Topology Zone** | **IPv6(link local address)** |
 |-------------|----------------|-------------------|-----------------|
-| PC0 | 198.162.1.1 | Bus | Workstation Node 1 |
-| PC1 | 198.162.1.2 | Bus | Workstation Node 2 |
-| PC2 | 198.162.1.3 | Bus | Workstation Node 3 |
-| PC3 | 198.162.1.4 | Extended Star | Workstation Node 1 |
-| PC4 | 198.162.1.5 | Extended Star | Workstation Node 2 |
-| PC5 | 198.162.1.6 | Extended Star | Workstation Node 3 |
-| PC6 | 198.162.1.7 | Extended Star | Workstation Node 4 |
-| PC7 | 198.162.1.8 | Mesh | Workstation Node 1 |
-| PC8 | 198.162.1.9 | Mesh | Workstation Node 2 |
-| PC9 | 198.162.1.10 | Mesh | Workstation Node 3 |
-| Server (DHCP/HTTP) | 198.162.1.11 | Mesh | Centralized Server for DHCP and Web Services |
-| PC10 | 198.162.1.12 | Ring | Workstation Node 1 |
-| PC11 | 198.162.1.13 | Ring | Workstation Node 2 |
-| PC12 | 198.162.1.14 | Ring | Workstation Node 3 |
-| PC13 | 198.162.1.15 | Ring | Workstation Node 4 |
-| PC14 | 198.162.1.16 | Star | Workstation Node 1 |
-| PC15 | 198.162.1.17 | Star | Workstation Node 2 |
-| PC16 | 198.162.1.18 | Star | Workstation Node 3 |
-| PC17 | 198.162.1.19 | Star | Workstation Node 4 |
-|pc18  |198.162.1.20  | Star |                    |
+| PC0 | 198.162.1.1 | Bus | FE80::206:2AFF:FE77:4D16|
+| PC1 | 198.162.1.2 | Bus | FE80::201:43FF:FE78:BC25 |
+| PC2 | 198.162.1.3 | Bus |FE80::260:3EFF:FEA8:74E2 |
+| PC3 | 198.162.1.4 | Star| FE80::20D:BDFF:FEEB:876C |
+| PC4 | 198.162.1.5 | Star | FE80::20D:BDFF:FEEB:876C |
+| PC5 | 198.162.1.6 | Extended Star | FE80::260:70FF:FE37:3205 |
+| PC6 | 198.162.1.7 | Mesh | FE80::202:16FF:FE89:7A0B |
+| PC7 | 198.162.1.8 | Mesh | FE80::202:4AFF:FE47:936E |
+| PC8 | 198.162.1.9 | Extended Star | FE80::2D0:58FF:FE0A:1B31 |
+| PC9 | 198.162.1.10 | Mesh | FE80::2E0:8FFF:FE4E:65BD |
+| Server (DHCP/HTTP) | 198.162.1.1| Mesh | Centralized Server for DHCP and Web Services |
+| PC10 | 198.162.1.12 | Mesh | FE80::201:43FF:FE4E:CEB1|
+| PC11 | 198.162.1.13 | Ring | FE80::201:42FF:FE64:B2D8 |
+| PC12 | 198.162.1.14 | Ring | FE80::202:17FF:FE02:6D5D |
+| PC13 | 198.162.1.15 | Ring | FE80::2D0:58FF:FE3A:2E9B |
+| PC14 | 198.162.1.16 | Ring |FE80::201:97FF:FE9E:D386 |
+| PC15 | 198.162.1.17 | Star | FE80::2E0:8FFF:FE59:15B2 |
+| PC16 | 198.162.1.18 | Star | FE80::2D0:58FF:FEB6:65DA |
+| PC17 | 198.162.1.19 | Star | FE80::2E0:F7FF:FEB8:637E |
+|PC18  |198.162.1.20  |Extended Star |  FE80::2E0:A3FF:FE1B:1307 |
+|PC19  |198.162.1.6   | Extended Star| FE80::20A:F3FF:FE00:E9D7 |
 | Switches | Assigned Dynamically | All Zones | Core/Access Layer Devices |
 
 ---

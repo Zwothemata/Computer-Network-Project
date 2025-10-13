@@ -5,8 +5,8 @@
 
 ##  Project Overview
 
-This project implements and simulates **five basic network topologies** — Bus, Star, Mesh, Ring, and Extended Star — using **Cisco Packet Tracer**.  
-A **Hybrid Topology** integrates all five into one network with VLAN segmentation, IPv4/IPv6 addressing, one central **server (HTTP/DNS/DHCP)**, and a **router-on-a-stick** setup for inter-VLAN communication.
+This project implements and simulates five basic network topologies — Bus, Star, Mesh, Ring, and Extended Star — using Cisco Packet Tracer.  
+A Hybrid Topology integrates all five into one network with VLAN segmentation, IPv4/IPv6 addressing, one central **server (HTTP/DNS/DHCP)**, and a router-on-a-stick setup for inter-VLAN communication.
 
 The design ensures:
 - Proper VLAN segmentation and IP planning  
@@ -85,7 +85,7 @@ The design ensures:
 ---
 ## VLAN Configuration
 ### Objective
-VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved **security**, **performance**, and **traffic management**.  
+VLANs (Virtual Local Area Networks) are used to logically segment the hybrid network for improved security, performance, and traffic management.  
 Each VLAN isolates a specific group of devices while still allowing inter-VLAN communication through the router.
 
 -----

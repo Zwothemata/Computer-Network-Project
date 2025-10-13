@@ -216,8 +216,8 @@ DHCP Pools:
   
 ``
   ### SSID Configuration
-  SSID: WirelessMesh_Network
+  SSID: 
 Authentication: WPA2-PSK
-Passphrase: CMPG2025
+Passphrase: 
 Channel: Auto
 

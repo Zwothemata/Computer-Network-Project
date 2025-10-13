@@ -13,8 +13,8 @@ The design ensures:
 - End-to-end data exchange between all zones  
 - Basic network security (ACLs, port security)  
 - Centralized management and DHCP configuration  
-
 ---
+
 ### Part I: Network Topologies
 
 
@@ -179,8 +179,8 @@ Switch(config)# interface f0/2
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10
 Switch(config-if)# description Connected_to_PC1
-
 ----------
+
 ### DHCP Configuration
 IP Address: 192.168.100.10
 Subnet Mask: 255.255.255.0
@@ -192,8 +192,8 @@ DHCP Pools:
 - VLAN 20: 192.168.20.10–50
 - VLAN 30: 192.168.30.10–50
 - VLAN 40: 192.168.40.10–50
-  
-``
+---
+
   ### SSID Configuration
   SSID: 
 Authentication: WPA2-PSK

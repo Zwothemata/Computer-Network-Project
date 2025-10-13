@@ -57,10 +57,10 @@ The design ensures:
 | Device Type | Quantity | Description |
 |--------------|-----------|-------------|
 | Routers | 1 | Main inter-VLAN router (Router0) |
-| Switches | 6 | Distributed across topologies |
+| Switches | 15 | Distributed across topologies |
 | PCs | 20 | User devices across 5 network zones |
-| Server | 1 | Provides DHCP, DNS, HTTP services |
-| Access Points (optional) | 1–2 | Used for wireless mesh (Part II) |
+| Server | 1 | Provides DHCP and HTTP services |
+
 
 ---
 

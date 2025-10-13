@@ -31,7 +31,7 @@ The design ensures:
 
 
 ### Star Topology
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Star%20Topology.png?raw=true)
 
 
 ### Ring Topology

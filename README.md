@@ -19,6 +19,11 @@ The design ensures:
 
 ---
 
+## Hybrid Topology 
+
+![picture]()
+
+
 ## 🧩 Network Components
 
 | Device Type | Quantity | Description |

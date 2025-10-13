@@ -27,7 +27,7 @@ The design ensures:
 
 
 ### Mesh Topology
-![picture]()
+![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Mesh%20Topology.png?raw=true)
 
 
 ### Star Topology

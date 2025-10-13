@@ -37,17 +37,32 @@ The design ensures:
 ---
 
 ## 🌐 IP Addressing Plan (IPv4 and IPv6)
+## 🧩 IP Addressing Table
 
-| VLAN | Zone / Topology | Subnet | Gateway (Router Subinterface) | IPv6 Network | Device Range |
-|------|------------------|---------|-------------------------------|---------------|---------------|
-| 10 | 🟩 **Star Network (Green)** | 192.168.10.0/24 | 192.168.10.1 | 2001:db8:10::/64 | 192.168.10.10 – 192.168.10.50 |
-| 20 | 🟦 **Mesh Network (Blue)** | 192.168.20.0/24 | 192.168.20.1 | 2001:db8:20::/64 | 192.168.20.10 – 192.168.20.50 |
-| 30 | 🟪 **Bus Network (Pink)** | 192.168.30.0/24 | 192.168.30.1 | 2001:db8:30::/64 | 192.168.30.10 – 192.168.30.50 |
-| 40 | 🩵 **Extended Star / Ring (Cyan)** | 192.168.40.0/24 | 192.168.40.1 | 2001:db8:40::/64 | 192.168.40.10 – 192.168.40.50 |
-| 50 | 🟨 **Core + Server VLAN (Yellow)** | 192.168.50.0/24 | 192.168.50.1 | 2001:db8:50::/64 | 192.168.50.10 – 192.168.50.30 |
-| 99 | **Management VLAN** | 192.168.99.0/24 | 192.168.99.1 | 2001:db8:99::/64 | 192.168.99.10 – 192.168.99.50 |
-| 100 | **Server VLAN** | 192.168.100.0/24 | 192.168.100.1 | 2001:db8:100::/64 | 192.168.100.10 – 192.168.100.30 |
+| **Device** | **IP Address** | **Topology Zone** | **Description** |
+|-------------|----------------|-------------------|-----------------|
+| PC0 | 198.162.1.1 | Bus | Workstation Node 1 |
+| PC1 | 198.162.1.2 | Bus | Workstation Node 2 |
+| PC2 | 198.162.1.3 | Bus | Workstation Node 3 |
+| PC3 | 198.162.1.4 | Extended Star | Workstation Node 1 |
+| PC4 | 198.162.1.5 | Extended Star | Workstation Node 2 |
+| PC5 | 198.162.1.6 | Extended Star | Workstation Node 3 |
+| PC6 | 198.162.1.7 | Extended Star | Workstation Node 4 |
+| PC7 | 198.162.1.8 | Mesh | Workstation Node 1 |
+| PC8 | 198.162.1.9 | Mesh | Workstation Node 2 |
+| PC9 | 198.162.1.10 | Mesh | Workstation Node 3 |
+| Server (DHCP/HTTP) | 198.162.1.11 | Mesh | Centralized Server for DHCP and Web Services |
+| PC10 | 198.162.1.12 | Ring | Workstation Node 1 |
+| PC11 | 198.162.1.13 | Ring | Workstation Node 2 |
+| PC12 | 198.162.1.14 | Ring | Workstation Node 3 |
+| PC13 | 198.162.1.15 | Ring | Workstation Node 4 |
+| PC14 | 198.162.1.16 | Star | Workstation Node 1 |
+| PC15 | 198.162.1.17 | Star | Workstation Node 2 |
+| PC16 | 198.162.1.18 | Star | Workstation Node 3 |
+| PC17 | 198.162.1.19 | Star | Workstation Node 4 |
+| Switches | Assigned Dynamically | All Zones | Core/Access Layer Devices |
 
+---
 ---
 
 ## 📑 VLAN Assignment Table

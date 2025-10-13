@@ -20,6 +20,24 @@ The design ensures:
 ---
 ## Five topologies
 
+### Bus Topology
+![picture]()
+
+
+### Mesh Topology
+![picture]()
+
+
+### Star Topology
+![picture]()
+
+
+### Ring Topology
+![picture]()
+
+
+### Extended Star
+![picture]()
 
 
 

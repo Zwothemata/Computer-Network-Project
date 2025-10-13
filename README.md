@@ -176,14 +176,13 @@ interface g0/0.10
 ```
 ### Access Point Configuration
 
----bash
+```bash
 Switch(config)# interface f0/2
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10
 Switch(config-if)# description Connected_to_PC1
-
 ----------
-
+```
 ### DHCP Configuration
 IP Address: 192.168.100.10
 Subnet Mask: 255.255.255.0

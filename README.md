@@ -129,7 +129,7 @@ Each VLAN isolates a specific group of devices while still allowing inter-VLAN c
 | Switch13| 10.0.0.13 |
 | Switch14| 10.0.0.14 |
 -----------------------
-## ParII: Wireless Mesh Topology
+## Part II: Wireless Mesh Topology
 
 ![picture](https://github.com/Zwothemata/Computer-Network-Project/blob/main/Screenshot%20(210).png?raw=true)
 
